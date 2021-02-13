@@ -1,0 +1,11 @@
+name: testing-binder-gerzsd
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - gdal
+  - pip:
+    - pandas
+    - matplotlib
